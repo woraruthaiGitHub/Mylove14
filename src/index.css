@@ -1,0 +1,21 @@
+/* ล้างค่า default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* พื้นหลังหลักทั้งเว็บ */
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #ff4d6d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ทำให้ root กินเต็มจอ */
+#root {
+  width: 100%;
+}
